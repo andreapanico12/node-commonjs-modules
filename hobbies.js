@@ -4,7 +4,7 @@ function hobbiesList(hobbyOne,hobbyTwo,hobbyThree){
   return hobbies
 }
 
-console.log(hobbiesList("sport","cucina","parapendio"))
+// console.log(hobbiesList("sport","cucina","parapendio"))
 
 module.exports= {
   hobbiesList

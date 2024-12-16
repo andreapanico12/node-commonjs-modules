@@ -4,7 +4,13 @@
   "description": "Esercizio: commonjs-modules ===",
   "main": "hobbies.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node people.js",
+    "startHobs":"node hobbies.js",
+    "startNames": "node names.js",
+    "watch": "node --watch people.js",
+    "watchHobs":"node --watch hobbies.js",
+    "watchNames": "node --watch names.js"
   },
   "repository": {
     "type": "git",
