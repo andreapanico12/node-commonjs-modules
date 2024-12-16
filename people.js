@@ -8,4 +8,4 @@ function createPerson(){
   }
 }
 
-console.log(createPerson())
+module.exports = {createPerson}

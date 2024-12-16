@@ -2,13 +2,15 @@
   "name": "commonjs-modules",
   "version": "1.0.0",
   "description": "Esercizio: commonjs-modules ===",
-  "main": "hobbies.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node people.js",
+    "start":"node app.js",
+    "watch":"node --watch app.js",
+    "startPeople": "node people.js",
     "startHobs":"node hobbies.js",
     "startNames": "node names.js",
-    "watch": "node --watch people.js",
+    "watchPeople": "node --watch people.js",
     "watchHobs":"node --watch hobbies.js",
     "watchNames": "node --watch names.js"
   },
